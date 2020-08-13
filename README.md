@@ -1,4 +1,4 @@
-# pizzaquiz
+# Pizza Quiz!
 Pointless pizza topping number cruncher
 
 For Mr. Joiner,
