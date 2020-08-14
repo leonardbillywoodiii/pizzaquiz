@@ -6,6 +6,7 @@ const pizza_orders = JSON.parse(raw_data);
 
 let compiled_list = [];
 
+// READS: For each individual array of toppings of pizza orders, sort each individual array of toppings, and add to compiled list.
 for (let individual_array_of_toppings of pizza_orders) compiled_list = add_to(sort_each(individual_array_of_toppings), compiled_list);
 
 // Presentation only
