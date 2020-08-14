@@ -8,6 +8,7 @@ let compiled_list = [];
 
 for (let individual_array_of_toppings of pizza_orders) compiled_list = add_to(sort_each(individual_array_of_toppings), compiled_list);
 
+// Presentation only
 compiled_list.sort(list_by_descending_order);
 compiled_list = get_first(20, compiled_list);
 console.log(compiled_list);
